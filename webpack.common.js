@@ -60,13 +60,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/działka.html",
       inject: true,
-      chunks: ["index", "another"],
+      chunks: ["index",],
       filename: "działka.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/pages/toaletki.html",
       inject: true,
-      chunks: ["index", "another"],
+      chunks: ["index",],
       filename: "toaletki.html",
     }),
   ],
