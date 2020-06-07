@@ -58,10 +58,16 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/another.html",
+      template: "./src/pages/działka.html",
       inject: true,
       chunks: ["index", "another"],
-      filename: "another.html",
+      filename: "działka.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/toaletki.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "toaletki.html",
     }),
   ],
 };
