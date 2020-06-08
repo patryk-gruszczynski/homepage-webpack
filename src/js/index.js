@@ -28,7 +28,7 @@ function greet(firstName,age) {
         nav.classList.toggle('navigation--open');
     })
 
-const startOfDay = moment().startOf('day').fromNow(fromNow);
+const startOfDay = moment().startOf('day').fromNow();
 
 const timePlaceholder = document.querySelector('.time--js');
 
