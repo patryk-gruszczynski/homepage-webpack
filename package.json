@@ -40,6 +40,15 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
+    "moment": "^2.26.0",
     "normalize.css": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patryk-gruszczynski/homepage-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patryk-gruszczynski/homepage-webpack/issues"
+  },
+  "homepage": "https://github.com/patryk-gruszczynski/homepage-webpack#readme"
 }
