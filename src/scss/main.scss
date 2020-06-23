@@ -95,6 +95,15 @@ min-height: 60px;
   max-width: 100%;  
 }
 
+@keyframes navigation__link {
+from {
+  transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
 @media screen and (min-width: 600px) {
 
   .main {
