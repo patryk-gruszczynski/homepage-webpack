@@ -88,21 +88,20 @@ min-height: 60px;
 .about__picture {
   display: block;
   max-width: 100%;
+  transform: rotate(-5deg);
+  margin: 20px 20px 20px 60px;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: rotate(5deg) scale(1.1)
+  }
+
 }
 
 .garden__picture {
   display: block;
-  max-width: 100%;  
-}
+  max-width: 100%;
+    }
 
-@keyframes navigation__link {
-from {
-  transform: scale(1);
-  }
-  to {
-    transform: scale(2);
-  }
-}
 
 @media screen and (min-width: 600px) {
 
@@ -134,10 +133,11 @@ from {
   color: rgb(247, 71, 2);
   display: inline-block;
   margin: 16px 16px 16px 16px;
-}
-
-.navigation__link:hover {
+  transition: color 2s linear, transform 1s ease-in-out;
+  &:hover {
   color: blue;
+  transform: scale(1.5) rotate(40deg);
+}
 }
 
 .main__heading {
@@ -164,4 +164,5 @@ from {
   grid-column-start: 1;
   grid-column-end: 2;
 }
+
 }
